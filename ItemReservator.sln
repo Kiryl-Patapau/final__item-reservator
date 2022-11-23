@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemReservator", "ItemReservator\ItemReservator.csproj", "{838578CE-2B5B-41DD-876D-B703E93C96DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{838578CE-2B5B-41DD-876D-B703E93C96DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838578CE-2B5B-41DD-876D-B703E93C96DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838578CE-2B5B-41DD-876D-B703E93C96DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838578CE-2B5B-41DD-876D-B703E93C96DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39FBE606-1B95-4939-AE8A-6E8ECDA57DCB}
+	EndGlobalSection
+EndGlobal
