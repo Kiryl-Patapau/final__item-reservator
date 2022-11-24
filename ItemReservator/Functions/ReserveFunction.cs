@@ -12,7 +12,7 @@ public static class ReserveFunction
 {
     [FunctionName("ReserveFunction")]
     public static async Task Run(
-        [ServiceBusTrigger("sbq-reserving-items", Connection = "ServiceBusConnectionString")] string message,
+        [ServiceBusTrigger("sbq-reserving-items", Connection = "ServiceBus")] string message,
         IBinder binder)
     {
         var order = JsonConvert.DeserializeObject<Order>(message);
